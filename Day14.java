@@ -74,7 +74,7 @@ class List{
 
         ArrayList<Integer> list5= (ArrayList<Integer>)list4.clone();
         System.out.println(list5);
- 
+          
 
         
     }
