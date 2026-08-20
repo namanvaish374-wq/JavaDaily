@@ -28,6 +28,22 @@ class Main {
 
         System.out.println(list.contains(30));
 
+        ArrayList<String> s1=new ArrayList<>();
+        s1.add("Java");
+        s1.add("Python");
+        s1.add("C++");
+        s1.add("Java Script");
+
+        System.out.println(s1);
+
+        s1.set(1,"Go");
+
+        s1.remove("C++");
+
+        System.out.println(s1.contains("Java"));
+        
     }
 
 }
+
+
