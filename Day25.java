@@ -17,7 +17,7 @@
  * Output Format:
  * For each test case, print "YES" if such a binary string exists; otherwise,
  * print "NO".
- */
+ */ 
 
 
 
