@@ -1,0 +1,5 @@
+package JavaDaily;
+
+public d {
+    
+}
