@@ -5,18 +5,18 @@ class Solution {
         int high = 0;
 
         for(int w : weights) {
-            low = Math.max(low, w); // minimum possible capacity
-            high += w;              // maximum possible capacity
+            low = Math.max(low, w); 
+            high += w;              
         }
 
         while(low < high) {
             int mid = low + (high - low) / 2;
 
             if(canShip(weights, days, mid)) {
-                high = mid; // capacity possible hai, aur chhoti try karni hai
+                high = mid; 
             }
             else {
-                low = mid + 1; // capacity chhoti hai, badhani padegi
+                low = mid + 1;
             }
         }
 
